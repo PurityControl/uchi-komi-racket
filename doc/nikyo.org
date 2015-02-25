@@ -1,1 +1,5 @@
 #+TITLE: Dai-nikyo (Group 2) - Testing
+
+* Rackunit
+Racket comes with a unit testing framework called Rackunit.
+See the [[http://docs.racket-lang.org/rackunit/index.html][documentation]] for further information.
