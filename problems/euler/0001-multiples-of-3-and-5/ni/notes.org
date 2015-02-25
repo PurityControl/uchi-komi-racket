@@ -1,0 +1,6 @@
+#+TITLE: Notes for Multiples of 3 and 5
+
+second iteration changes
+- pass in a list of divisors to multiples-of? method
+- multiples-of-? is a closure returning a funciton
+
