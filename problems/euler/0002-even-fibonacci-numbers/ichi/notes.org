@@ -1,0 +1,5 @@
+#+TITLE: Notes for Multiples of 3 and 5
+
+use of recursive accumulater to collect fibs then
+filter and sum on list of resutls
+
