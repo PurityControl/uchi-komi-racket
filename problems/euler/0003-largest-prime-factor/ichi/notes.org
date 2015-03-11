@@ -1,0 +1,5 @@
+#+TITLE: Notes for largest prime factor
+
+cheating a little but showing how succinct a solution can be with
+great built in libraries.
+
