@@ -1,0 +1,9 @@
+#+TITLE: Notes for largest palindrome product
+
+racket excels in list generation and the for*/list method made
+filtering out all 3 digit palindrome products very straightforward.
+However string utilities seem weaker with the palindrome? function
+being more complicated than it should need to be, unless of course
+racket can do this more eloquently and I am just unaware of it.
+
+
