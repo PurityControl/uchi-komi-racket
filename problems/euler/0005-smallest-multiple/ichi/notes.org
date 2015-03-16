@@ -1,6 +1,6 @@
 #+TITLE: Notes for smallest multiple problem
 
-The idea is to create a recursive call that is tail 
+The idea is to create a recursive call that is tail
 optimised increasing the multiple by the largest number
 in the list of factors on each call.
 The first call where each factor is divisible by the

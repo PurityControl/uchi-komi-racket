@@ -17,7 +17,7 @@
     (smallest-multiple largest-factor lofactors)))
 
 (define file-tests
-  (test-suite 
+  (test-suite
    "Tests for smallest-multiple"
    (check-true (multiple? 2520 (in-range 1 10)))
    (check-false (multiple? 2521 (in-range 1 11)))
