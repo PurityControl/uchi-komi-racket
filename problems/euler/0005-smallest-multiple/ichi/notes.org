@@ -1,10 +1,15 @@
 #+TITLE: Notes for smallest multiple problem
 
-idea is to create a recursive call that is tail 
-optimises increasing the multiple by the largest number
+The idea is to create a recursive call that is tail 
+optimised increasing the multiple by the largest number
 in the list of factors on each call.
 The first call where each factor is divisible by the
 multiple is returned.
 
+** Retrospective
+
+Need to be more comfortable about the difference between
+lists and sequences and the problems caused by contract
+violations when passing apply a sequence.
 
 
