@@ -9,11 +9,12 @@
 
 (define (smallest-multiple lofactors)
   "returns smallest multiple for the list of factors"
-  (define (smallest-multiple multiple lofactors)
-    (if (multiple? multiple lofactors)
-        multiple
-        (smallest-multiple (+ multiple (apply max lofactors)) lofactors)))
-  (smallest-multiple (apply max lofactors) lofactors))
+  (let ([largest-factor (apply max lofactors)])
+    (define (smallest-multiple multiple lofactors)
+      (if (multiple? multiple lofactors)
+          multiple
+          (smallest-multiple (+ multiple largest-factor) lofactors)))
+    (smallest-multiple largest-factor lofactors)))
 
 (define file-tests
   (test-suite 
