@@ -1,0 +1,8 @@
+#+TITLE: Notes for difference of sums of squares
+
+calculate difference between sum of mapped squares of list
+vs square of the sum of the list
+
+** Retrospective
+
+
