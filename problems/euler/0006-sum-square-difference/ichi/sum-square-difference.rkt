@@ -4,15 +4,15 @@
 
 (define (square-sums lonumbers)
   "square the sum of the list"
-  )
+  (sqr (apply + lonumbers)))
 
 (define (sum-squares lonumbers)
   "sum the squares of the list"
-  )
+  (apply + (map sqr lonumbers)))
 
 (define (sum-square-difference lonumbers)
   "difference between square of sums of the the list and sum the squares of the list"
-  )
+  (- (square-sums lonumbers) (sum-squares lonumbers)))
 
 
 (define file-tests
