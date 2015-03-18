@@ -1,0 +1,9 @@
+#+TITLE: Notes for 10001st prime
+
+cheat by using inbuilt library
+
+** Retrospective
+
+have another iteration implementing prime logic for ourselves
+
+
