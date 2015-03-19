@@ -1,0 +1,12 @@
+#+TITLE: Notes for Largest Product in Series
+
+create a list of sequences representing all possible sequences
+in the series. Then calculate the product of each list and
+pull out the maximum
+
+** Retrospective
+
+an iteration may have been a quicker approach to create the 
+13 length sequences but I find the recursion easier to reason
+about.
+
