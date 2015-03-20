@@ -1,0 +1,16 @@
+#+TITLE: Notes for Special Pythagorean Triplet
+
+filter all combinations that total 1000
+filter list to those that are pythagorean
+calculate product
+
+
+** Retrospective
+
+for*/list seems to be memory intensive. Had to bump up
+memory available to 256 mb. Should try a solution with
+natural recursion and see if the same problem arises,
+while comparing speed.
+This test runs in around 30 seconds in the gui, and
+20 seconds on the cli.
+
