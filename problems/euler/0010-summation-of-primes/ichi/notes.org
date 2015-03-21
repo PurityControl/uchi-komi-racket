@@ -1,0 +1,8 @@
+#+TITLE: Notes for Summation of primes
+
+simple recursion starting at 2 million and adding
+previous prime until the base case of prime 2 is
+reached.
+Could easily have been done in the opposite direction
+
+** Retrospective
