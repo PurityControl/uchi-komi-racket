@@ -1,0 +1,12 @@
+#+TITLE: Notes for Largets Product In Grid
+ 
+
+** Retrospective
+built up functionally, used one large single dimesional
+vector with function to pull out co-ordinates rather than
+2d vector.
+Not sure if sequence length, grid length and grid-vector
+are passed around needlessly but it seemed to be appropriate
+for a functional solution.
+May be a better way to operate on lists that return variable
+length sequence lists including possibly an empty list.
