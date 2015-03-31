@@ -1,0 +1,7 @@
+#+TITLE: Notes for Largest Product In Grid (Second Set)
+
+Plan to implement second set using structs to make the 
+logic easier to follow and the code more legible 
+
+** Retrospective
+
