@@ -26,6 +26,9 @@
 (define (posn-at-delta pos dx dy)
   (posn (+ (posn-x pos) dx) (+ (posn-y pos) dy)))
 
+(define (posn-value posn grid)
+  (vector-ref (grid-values grid) (+ (* (grid-length grid) (sub1 (posn-x posn))) (sub1 (posn-y posn)))))
+
 (define (seq-direction? dx dy)
   (lambda (grid pos)
     (has-posn? grid (posn-at-delta pos dx dy))))
@@ -64,7 +67,13 @@
    (check-true ((diag-fwd? 3) (grid-factory 3 "1 2 3 4 5 6 7 8 9") (posn 1 1)))
    (check-false ((diag-fwd? 4) (grid-factory 3 "1 2 3 4 5 6 7 8 9") (posn 1 1)))
    (check-true ((diag-back? 3) (grid-factory 3 "1 2 3 4 5 6 7 8 9") (posn 3 1)))
-   (check-false ((diag-back? 4) (grid-factory 3 "1 2 3 4 5 6 7 8 9") (posn 3 1)))))
+   (check-false ((diag-back? 4) (grid-factory 3 "1 2 3 4 5 6 7 8 9") (posn 3 1)))
+   (check-equal? (posn-value (posn 1 1) (grid-factory 2 "1 2 3 4 5 6")) 1)
+   (check-equal? (posn-value (posn 1 2) (grid-factory 2 "1 2 3 4 5 6")) 2)
+   (check-equal? (posn-value (posn 2 1) (grid-factory 2 "1 2 3 4 5 6")) 3)
+   (check-equal? (posn-value (posn 2 2) (grid-factory 2 "1 2 3 4 5 6")) 4)
+   (check-equal? (posn-value (posn 3 1) (grid-factory 2 "1 2 3 4 5 6")) 5)
+   (check-equal? (posn-value (posn 3 2) (grid-factory 2 "1 2 3 4 5 6")) 6)))
 
 
 (run-tests file-tests)
