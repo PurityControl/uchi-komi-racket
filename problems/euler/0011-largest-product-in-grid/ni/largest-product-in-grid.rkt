@@ -6,14 +6,16 @@
 (struct posn (x y))
 (struct posn-sequences (posn length sequences))
 
-(define (string->grid str)
-  (map string->number (filter-not (lambda (x) (string=? "" x)) (string-split str " "))))
+(define (string->vector str)
+  (list->vector 
+   (map string->number 
+        (filter-not (lambda (x) (string=? "" x)) (string-split str " ")))))
 
 (define (grid-factory length str)
-  (grid length (string->grid str)))
+  (grid length (string->vector str)))
 
 (define (grid-depth grid)
-  (/ (length (grid-values grid)) (grid-length grid)))
+  (/ (vector-length (grid-values grid)) (grid-length grid)))
 
 (define (has-posn? grid posn)
   (and (>= (posn-x posn) 1)
