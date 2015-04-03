@@ -17,6 +17,14 @@
 (define (grid-depth grid)
   (/ (vector-length (grid-values grid)) (grid-length grid)))
 
+(define (grid-posns grid)
+  (for*/list ([i (in-range 1 (+ 1 (grid-length grid)))]
+              [j (in-range 1 (+ 1 (grid-depth grid)))])
+    (posn i j)))
+
+(define (grid-seq-totals grid seq-len)
+  (map (lambda (x) (posn-totals x seq-len grid)) (grid-posns grid)))
+
 (define (has-posn? grid posn)
   (and (>= (posn-x posn) 1)
        (>= (posn-y posn) 1)
