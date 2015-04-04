@@ -1,0 +1,26 @@
+#+TITLE: Notes for Largest Product In Grid (Second Set)
+
+Plan to implement second set using structs to make the
+logic easier to follow and the code more legible
+
+** Retrospective
+
+Use of structs have helped keep related data together.
+Have used partial functions to dry up the code.
+It feels as if much of the complexity is created from
+passing round state as parameters rather than using a
+shared variable but currently don't know how to improve
+upon this without making "object orientated style functional
+code".
+I think benefit could be gained from namespacing different
+functionalities such as grid and position to reduce complexity
+as you would with the single responsibility principle in oop.
+Despite using structs the combination of this and use of
+partial functions seem to have made intent more difficult to
+follow than the first implementation.
+I feel that my skill of breaking tasks down into small
+manageable functions is transferrable between oop and fp
+but where I seem to struggle is keeping clarity when
+using composition to bring that behaviour together to
+implement a complicated task. It seems so much harder for
+me to achieve in fp.

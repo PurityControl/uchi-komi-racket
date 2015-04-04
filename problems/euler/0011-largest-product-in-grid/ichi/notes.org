@@ -1,4 +1,4 @@
-#+TITLE: Notes for Largets Product In Grid
+#+TITLE: Notes for Largest Product In Grid
  
 
 ** Retrospective
