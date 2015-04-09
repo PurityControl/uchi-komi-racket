@@ -1,0 +1,6 @@
+#+TITLE: Notes for Highly Divisible Triangular Number Problem
+
+recursive call to calculate next triangular number until hit
+the first one with the required number of divisors.
+
+** Retrospective
