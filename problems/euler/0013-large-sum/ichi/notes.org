@@ -1,0 +1,9 @@
+#+TITLE: Notes for Large Sum Problem
+
+sum all 50 digit numbers then extract the first 10 numbers
+
+** Retrospective
+This sort of problem plays to the strengths of functional
+programming applying a list of arguments to the + function
+is trivial.
+
