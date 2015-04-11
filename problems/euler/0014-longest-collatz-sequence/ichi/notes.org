@@ -1,0 +1,9 @@
+#+TITLE: Notes for Longest Collatz sequence
+
+accumlate the collatz sequence for each number up to
+1,000,000 in a list. Then see which number has the
+longest list
+
+** Retrospective
+Like the use of an alist tying the list length
+and number that created that length together
