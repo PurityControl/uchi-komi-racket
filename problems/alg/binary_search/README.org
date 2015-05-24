@@ -1,0 +1,10 @@
+#+TILE: Binary Search
+
+* Problem Description
+
+Given a sorted list and a search item return the items position in the list.
+
+- If the item is not in the list return false
+- If the item is in the list return its position (zero based)
+
+Implement the feature using a binary search.
