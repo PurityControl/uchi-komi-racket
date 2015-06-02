@@ -1,5 +1,12 @@
 #+TITLE: Uchi komi for Racket / Scheme
 
+* Problem Sets                                                                   
+The problem sets for all uchi komi language repos are held in a dedicated        
+repo. This avoids having to keep problems in sync across all the repos.          
+A problem can now be added to the individual language repo only when ready          
+to tackle it.                                                                    
+The problem repo is at [[https://github.com/PurityControl/uchi-komi-problems]]
+
 * Gokyo
 
 - [[file:doc/ikkyo.org][Dai-ikkyo]] - Settng up the environment
