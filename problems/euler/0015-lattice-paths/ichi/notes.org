@@ -1,0 +1,7 @@
+#+TITLE: Notes for Lattice Paths Problem
+
+The number of lattice paths for a n x n grid is (2n)! / (n!)**2.
+This is based on a property of pascals triangle covered in combinatrics ie.
+(length side (a) + length side (b))! / length side (a)! * length side (b)!
+
+
