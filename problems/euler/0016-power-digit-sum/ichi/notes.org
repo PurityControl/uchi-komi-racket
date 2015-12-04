@@ -1,0 +1,7 @@
+#+TITLE: Notes for Power Digit Sum
+
+Straightforward implementation by converting the number to a string and
+splitting it. Then totalling up the value of the list.
+
+
+
