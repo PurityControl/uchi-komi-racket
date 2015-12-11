@@ -1,0 +1,12 @@
+#+TITLE: Notes for Number Letter Counts
+
+Solutions works, but feels like it lacks clarity of thought.
+More complicated than the ruby solution as it has tried to abstract
+out the concept of counting and place value.
+A similar solution to the ruby solution may be more elegant by just solving
+the problem described rather than engineering a solution designed to deal
+with a bigger problem.
+
+
+
+
