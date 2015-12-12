@@ -1,0 +1,4 @@
+#+TITLE: Notes for Maximum Path Sum
+
+Solutions creates cumulative total and takes the maximum at the end,
+preventing the need for a brute force solution.
