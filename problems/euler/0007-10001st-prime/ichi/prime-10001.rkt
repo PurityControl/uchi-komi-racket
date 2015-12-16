@@ -4,7 +4,7 @@
 (require math/number-theory)
 
 (define (prime-at-position x)
-  (nth-prime (- x 1)))
+  (nth-prime (sub1 x)))
 
 (define file-tests
   (test-suite
