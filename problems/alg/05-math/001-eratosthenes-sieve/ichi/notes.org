@@ -1,0 +1,9 @@
+#+TITLE: Retrospective for Sieve of Eratosthenes
+
+- Reasonable performant up to about 1,000,000 then starts to require a lot
+  of memory.
+- Use standard functional accumulator to build up list for seiving.
+- Have to reverse lists as using cons to build up the list of primes.
+- Could be made more succinct by using standard higher order functions as
+  abstractions for the process.
+
