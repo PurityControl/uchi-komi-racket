@@ -7,3 +7,23 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143 ?
 
 (answer 6857)
+
+* Discussion
+
+A prime number has only 2 factors, itself and 1. All other numbers are
+composite, that is, they can be factorised into only prime numbers. This
+postulate has not been proven but no exceptions have yet been found.
+
+Factors by definition must be at minimum pairs. This means that a number
+can only have one factor greater than its square root (two factors greater
+than this would produce a larger number) and it must have a counterpart
+smaller than the square root. Thus if no factors are found up to the square
+root of a number then the number must be prime.
+
+Further, if there can only be one prime factor of a number that is greater
+than the square root of the number, it will be the number that is left after
+division by all the prime numbers up to the square root of the number.
+
+Using a sieve of Eratosthenes for the prime numbers up to the square root
+of the number to be factorised could be a good way to start with the
+factors needed to factorise the number.
