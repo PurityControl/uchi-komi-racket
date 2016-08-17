@@ -1,0 +1,10 @@
+#+TITLE: Counting Sundays Notes
+
+* Retrospective
+
+After some thought it seemed that the most straightforward way to
+calculate the answer was to have a running total of the number of days
+from a reference sunday to the 1st day of each subsequent month.
+
+This allowed us to check all days divisible by 7 with no remainder and
+total these to get the answer.
