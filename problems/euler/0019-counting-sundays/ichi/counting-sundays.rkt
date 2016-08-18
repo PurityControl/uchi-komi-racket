@@ -29,5 +29,7 @@
              (cumulative-days (cdr lod) (+ total (car lod))))])))
 
 
+(define (sunday? day_count)
+  (zero? (modulo day_count 7)))
 
-(count (lambda (l) (zero? (modulo l 7)))(cumulative-days all-days 0))
+(count sunday? (cumulative-days all-days 0))
