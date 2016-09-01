@@ -4,7 +4,7 @@
 (require math/number-theory)
 
 (define (largest-prime-factor number)
-  (apply max (map car (factorize number))))
+  (apply max (prime-divisors number)))
 
 (define file-tests
   (test-suite
