@@ -1,0 +1,9 @@
+#+TITLE: Notes for Special Pythagorean Triplet
+
+iterate over numbers returning first solution that meets criteria
+
+
+** Retrospective
+
+bailing out after the first match makes the algorithm much mor efficient.
+
